@@ -1,0 +1,67 @@
+/*Especificidad: (0,0,1)*/
+body {
+    font-family: "Cambria Math", sans-serif;
+    background-color: white;
+    color:rgb(0, 0, 0);
+}
+
+/*Especificidad: (0,0,1)*/
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    background-color:  #d8d6d6;
+    width: 20em;
+    border-radius: 5%;
+    padding: 2em;
+    margin-top: 5%;
+}
+
+/*Especificidad: (0,0,1)*/
+label {
+    font-size: 1.2em;
+}
+
+/*Especificidad: (0,1,1)*/
+input[type=submit]  {
+    background-color: #c4c2c2;
+    font-size: 1.5em;
+}
+
+/*Especificidad: (0,1,1)*/
+input[type=text]  {
+    grid-column: span 4;
+}
+
+/*Especificidad: (0,2,1)*/
+input[type=submit][ value = "0"],
+input[type=submit][ value = "1"],
+input[type=submit][ value = "2"],
+input[type=submit][ value = "3"],
+input[type=submit][ value = "4"],
+input[type=submit][ value = "5"],
+input[type=submit][ value = "6"],
+input[type=submit][ value = "7"],
+input[type=submit][ value = "8"],
+input[type=submit][ value = "9"],
+input[type=submit][ value = "."]
+{
+    background-color: #ffffff;
+}
+
+/*Especificidad: (0,2,1)*/
+input[type=submit][ value = "ENTER"]{
+    background-color: #b8dfeb;
+}
+
+/*Especificidad: (0,0,1)*/
+textarea {
+    grid-column: span 4;
+    text-align: right;
+    border: none;
+    resize: none;
+
+}
+
+

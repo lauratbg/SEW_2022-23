@@ -1,0 +1,81 @@
+/*Especificidad: (0,0,1)*/
+body {
+    font-family: "Cambria Math", sans-serif;
+    background-color: rgb(102, 62, 112);
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+/*Especificidad: (0,0,1)*/
+form {
+    display: grid;
+    grid-template-columns: repeat(5, 2.5em);
+    grid-template-rows: repeat(6, 1.5em);
+    gap: 1em;
+
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    width: max-content;
+    border-radius: 10%;
+
+    padding: 2em;
+    margin-top: 10%;
+    margin-left: 35%;
+
+}
+
+/*Especificidad: (0,0,1)*/
+label {
+    color: rgb(0, 0, 0);
+    
+    background-color: rgba(248, 248, 248, 0);
+    grid-column: span 5;
+    
+    text-align: center;
+    
+}
+
+/*Especificidad: (0,1,1)*/
+input[type=submit] {
+    color:rgb(0, 0, 0);
+    background-color: rgb(236, 236, 219);
+    font-size: 100%;
+    border-radius: 10%;
+    width: 120%;
+    height: 110%;
+    margin-left: 2%; 
+}
+
+/*Especificidad: (0,2,1)*/
+input[type=submit][value="+"] {
+    color:rgb(255, 255, 255);
+    background-color: rgb(48, 51, 51);
+    grid-row: span 2;
+}
+
+/* Especificidad: (0,2,1)*/
+input[type=submit][ value = "√"],
+input[type=submit][ value = "%"],
+input[type=submit][ value = "*"],
+input[type=submit][ value = "/"],
+input[type=submit][ value = "-"],
+input[type=submit][ value = "Mrc"],
+input[type=submit][ value = "M-"],
+input[type=submit][ value = "M+"]
+{
+    color:rgb(255, 255, 255);
+    background-color: rgb(48, 51, 51);
+}
+
+/*Especificidad: (0,1,1)*/
+input[type=text] {
+    grid-column: span 5;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);    
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    font-size: 150%;
+} 
+
+

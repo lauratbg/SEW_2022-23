@@ -1,0 +1,80 @@
+/*Especificidad: (0,0,1)*/
+body {
+    font-family: "Cambria Math", sans-serif;
+    background-color: #d8d6d6; 
+    color: black;    
+}
+
+/*Especificidad: (0,0,1)*/
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.2em;
+    min-height: 95vh;
+}
+
+/*Especificidad: (0,0,1)*/
+label{
+    font-size: 1.5em;
+}
+
+/*Especificidad: (0,1,1)*/
+input[type=submit]  {
+    background-color: #c4c2c2;
+    font-size: 1.5em;
+}
+
+/*Especificidad: (0,2,1)*/
+input[type=submit][ value = "0"],
+input[type=submit][ value = "1"],
+input[type=submit][ value = "2"],
+input[type=submit][ value = "3"],
+input[type=submit][ value = "4"],
+input[type=submit][ value = "5"],
+input[type=submit][ value = "6"],
+input[type=submit][ value = "7"],
+input[type=submit][ value = "8"],
+input[type=submit][ value = "9"],
+input[type=submit][ value = "."]
+{
+    background-color: #ffffff;
+}
+
+/*Especificidad: (0,2,1)*/
+input[type=submit][ value = "="]{
+    background-color: #b8dfeb;
+}
+
+
+/*Especificidad: (0,2,1)*/
+input[type=submit][ value = "F-E"],
+input[type=submit][ value = "HYP"],
+input[type=submit][ value = "DEG"],
+input[type=submit][ value = "RAD"],
+input[type=submit][ value = "GRAD"],
+input[type=submit][ value = "MS"],
+input[type=submit][ value = "M-"],
+input[type=submit][ value = "Mc"],
+input[type=submit][ value = "Mr"],
+input[type=submit][ value = "M+"]
+{
+    background-color:#d8d6d6;
+}
+
+
+/*Especificidad: (0,2,1)*/
+input[type=text][name="pantalla"] {
+    grid-column: span 5;
+}
+
+/*Especificidad: (0,1,1)*/
+input[type=text]{
+    background-color:#d8d6d6;
+    color: black;
+    font-size: 150%;
+    border: none;
+    text-align: center;
+}
+
+
+

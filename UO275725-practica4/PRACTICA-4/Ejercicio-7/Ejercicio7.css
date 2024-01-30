@@ -1,0 +1,82 @@
+/*Especificidad: (0,0,1)*/
+body {
+    font-family: "Cambria Math", sans-serif;
+    background-color:#E7D8E9;
+    color:rgb(0, 0, 0);
+}
+
+/*Especificidad: (0,0,1)*/
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/*Especificidad: (0,0,1)*/
+p {
+    font-size: 1.1em;
+}
+
+/*Especificidad: (0,0,1)*/
+button  {
+    background-color: rgb(236, 236, 219);
+    border-radius: 10%;
+    margin: 1em;
+}
+
+/*Especificidad: (0,0,1)*/
+h2 {
+    font-size: 1.3em;
+    background-color:#3F0141;
+    color: white;
+}
+
+/*Especificidad: (0,0,1)*/
+label {
+    font-size: 1.2em;
+}
+
+/*Especificidad: (0,0,1)*/
+input{
+    font-size: 1.2em;
+    margin: 1em;
+}
+
+/*Especificidad: (0,0,1)*/
+h3{
+    background-color: #59015B;
+    color: white;
+}
+
+/*Especificidad (0,0,1)*/
+nav {
+    display: grid;
+    background-color: #DB9FDB;
+    grid-template-columns: 9fr;
+}
+
+/*Especificidad (0,0,2)*/
+nav ul {
+  font-size: 1em;
+  list-style-type: none;
+  padding: 0.9em;
+}
+
+/*Especificidad (0,0,3)*/
+nav ul li{
+  padding: 0.3em;
+}
+
+/*Especificidad (0,0,4)*/
+nav ul li a {
+  background-color: #DB9FDB;
+  color: #000000;
+}
+
+/*Especificidad (0,1,4)*/
+nav ul li a:hover{
+    background-color: #CB80C5;
+}
+
+
