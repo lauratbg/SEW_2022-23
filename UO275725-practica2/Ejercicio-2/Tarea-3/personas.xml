@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<personas
+			 xsi:schemaLocation="http://tempuri.org/personas personas.xsd"
+			 xmlns="http://tempuri.org/personas"
+			 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<persona nombre="Laura" 
+			 apellidos="Gómez Menéndez"
+			 fechaNacimiento="2001-01-01"
+			 lugarNacimiento="Tebongo"
+			 lugarResidencia="Nava"
+			 comentarios="Comentario sobre Laura">
+			
+			 <coordenadasNacimiento 
+				longitud="-6.50"
+				latitud="43.23"
+				altitud="302">
+			 </coordenadasNacimiento>
+			 <coordenadasResidencia
+				longitud="-5.50"
+				latitud="43.35"
+				altitud="154">
+			 </coordenadasResidencia>
+			 <foto>laura.jpg</foto>
+			 <video>lauraV1.mp4</video>
+		
+		<persona nombre="Miguel" 
+				 apellidos="Gayol Pertierra"
+				 fechaNacimiento="2001-05-25"
+				 lugarNacimiento="Cadavedo"
+				 lugarResidencia="Malta"
+				 comentarios="Comentario sobre Miguel">
+				 <coordenadasNacimiento 
+					longitud="-6.38"
+					latitud="43.53"
+					altitud="10">
+				 </coordenadasNacimiento>
+				 <coordenadasResidencia
+					longitud="14.37"
+					latitud="35.93"
+					altitud="44">
+				 </coordenadasResidencia>
+				<foto>miguel.jpg</foto>
+				<video>miguelV1.mp4</video>
+				<video>miguelV2.mp4</video>
+				<video>miguelV3.mp4</video>
+				
+				<persona nombre="Luis" 
+						 apellidos="Sánchez de Posada Orihuela"
+						 fechaNacimiento="2001-08-26"
+						 lugarNacimiento="Oviedo"
+						 lugarResidencia="Oviedo"
+						 comentarios="Comentario sobre Luis">
+						 <coordenadasNacimiento
+							longitud="-5.84"
+							latitud="43.36"
+							altitud="238">
+						 </coordenadasNacimiento>
+						 <coordenadasResidencia
+							longitud="-5.82"
+							latitud="43.36"
+							altitud="234">
+						 </coordenadasResidencia>
+						 <foto>luis.jpg</foto>
+				</persona>
+				
+				<persona nombre="Iván" 
+						 apellidos="Vega García"
+						 fechaNacimiento="2001-03-01"
+						 lugarNacimiento="Avilés"
+						 lugarResidencia="Avilés"
+						 comentarios="Comentario sobre Iván">
+						 <coordenadasNacimiento
+							longitud="-5.94"
+							latitud="43.53"
+							altitud="8">
+						  </coordenadasNacimiento>
+						 <coordenadasResidencia
+							longitud="-5.29"
+							latitud="43.55"
+							altitud="8">
+							</coordenadasResidencia>
+						 <foto>ivan.jpg</foto>
+				</persona>
+				
+				<persona nombre="Jairo" 
+						 apellidos="García Castro"
+						 fechaNacimiento="2000-12-14"
+						 lugarNacimiento="Luarca"
+						 lugarResidencia="Oviedo"
+						 comentarios="Comentario sobre Jairo">
+						 <coordenadasNacimiento
+							longitud="-6.53"
+							latitud="43.54"
+							altitud="40">
+						  </coordenadasNacimiento>
+						 <coordenadasResidencia
+							longitud="-5.81"
+							latitud="43.37"
+							altitud="238">
+						 </coordenadasResidencia>
+						<foto>jairo.jpg</foto>
+						<foto>jairo2.jpg</foto>
+				</persona>
+		</persona>
+		
+		<persona nombre="Silvia" 
+				 apellidos="Suárez Prendes"
+				 fechaNacimiento="2001-02-27"
+				 lugarNacimiento="San Juan de la Arena"
+				 lugarResidencia="Oviedo"
+				 comentarios="Comentario sobre Silvia">
+				 <coordenadasNacimiento
+					longitud="-6.06"
+					latitud="43.55"
+					altitud="8">
+				 </coordenadasNacimiento>
+				 <coordenadasResidencia
+					longitud="-5.82"
+					latitud="43.35"
+					altitud="238">
+				 </coordenadasResidencia>
+				 <foto>sil.jpg</foto>
+				 
+				 <persona nombre="Sara" 
+						 apellidos="Ramírez Pérez"
+						 fechaNacimiento="2001-04-17"
+						 lugarNacimiento="Fonsagrada"
+						 lugarResidencia="Cudillero"
+						 comentarios="Comentario sobre Sara">
+						 <coordenadasNacimiento
+							longitud="-7.06"
+							latitud="43.11"
+							altitud="8">
+						 </coordenadasNacimiento>
+						 <coordenadasResidencia
+							longitud="-6.16"
+							latitud="43.55"
+							altitud="8">
+						 </coordenadasResidencia>
+						<foto>sara.jpg</foto>
+						<video>saraV1.mp4</video>
+				  </persona>
+				  
+				  <persona nombre="Celia" 
+						 apellidos="Melendi Lavandera"
+						 fechaNacimiento="2001-09-01"
+						 lugarNacimiento="Pola de Siero"
+						 lugarResidencia="Tineo"
+						 comentarios="Comentario sobre Celia">
+						 <coordenadasNacimiento
+							longitud="-5.66"
+							latitud="43.39"
+							altitud="220">
+						 </coordenadasNacimiento>
+						 <coordenadasResidencia
+							longitud="-6.41"
+							latitud="43.32"
+							altitud="800">
+						 </coordenadasResidencia>
+						 <foto>ce.jpg</foto>
+						 <foto>ce2.jpg</foto>
+				  </persona>
+				  
+				  <persona nombre="Elena" 
+						 apellidos="Selgas Fernández"
+						 fechaNacimiento="2001-03-14"
+						 lugarNacimiento="Pravia"
+						 lugarResidencia="Grandas de Salime"
+						 comentarios="Comentario sobre Elena">
+						 <coordenadasNacimiento
+							longitud="-6.11"
+							latitud="43.49"
+							altitud="220">
+						 </coordenadasNacimiento>
+						 <coordenadasResidencia
+							longitud="-6.83"
+							latitud="43.23"
+							altitud="240">
+						 </coordenadasResidencia>
+						<foto>elena.jpg</foto>
+				  </persona>
+		</persona>
+		
+		<persona nombre="Lara" 
+				 apellidos="García Rodríguez"
+				 fechaNacimiento="2001-05-11"
+				 lugarNacimiento="Cangas del Narcea"
+				 lugarResidencia="Gijón"
+				 comentarios="Comentario sobre Lara">
+				 <coordenadasNacimiento
+					longitud="-6.54"
+					latitud="43.17"
+					altitud="396">
+				 </coordenadasNacimiento>
+				 <coordenadasResidencia
+					longitud="-5.66"
+					latitud="43.53"
+					altitud="7">
+				 </coordenadasResidencia>
+				<foto>lara.jpg</foto>
+				 
+				 <persona nombre="María" 
+						 apellidos="Arias Alfonso"
+						 fechaNacimiento="2001-09-19"
+						 lugarNacimiento="Pola de Allande"
+						 lugarResidencia="Llanes"
+						 comentarios="Comentario sobre María">
+						 <coordenadasNacimiento
+							longitud="-6.54"
+							latitud="43.26"
+							altitud="200">
+						 </coordenadasNacimiento>
+						 <coordenadasResidencia
+							longitud="-4.77"
+							latitud="43.41"
+							altitud="7">
+						 </coordenadasResidencia>
+						 <foto>maria.jpg</foto>
+				   </persona>
+				  
+				   <persona nombre="Isabel" 
+						 apellidos="Menéndez Menéndez"
+						 fechaNacimiento="2000-09-18"
+						 lugarNacimiento="Lastres"
+						 lugarResidencia="Sevares"
+						 comentarios="Comentario sobre Isabel">
+						 <coordenadasNacimiento
+							longitud="-5.26"
+							latitud="43.50"
+							altitud="7">
+						 </coordenadasNacimiento>
+						 <coordenadasResidencia 
+							longitud="-5.66"
+							latitud="43.35"
+							altitud="7">
+						 </coordenadasResidencia>
+						 <foto>isa.jpg</foto>
+				   </persona>
+				  
+				   <persona nombre="Idoia" 
+						 apellidos="Menéndez García"
+						 fechaNacimiento="2001-05-31"
+						 lugarNacimiento="Cornellana"
+						 lugarResidencia="Navelgas"
+						 comentarios="Comentario sobre Idoia">
+						 <coordenadasNacimiento
+							longitud="-6.52"
+							latitud="43.39"
+							altitud="396">
+						 </coordenadasNacimiento>
+						 <coordenadasResidencia
+							longitud="-5.84"
+							latitud="43.36"
+							altitud="238">						 
+						  </coordenadasResidencia>
+						 <foto>ido.jpg</foto>
+						 <foto>ido2.jpg</foto>
+				   </persona>
+		</persona>
+	</persona>
+</personas>

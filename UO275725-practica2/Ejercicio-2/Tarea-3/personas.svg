@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" >
+<rect x="5" y="5" width="400" height="43" style="fill:yellow;stroke:purple;stroke-width:1"/>
+<text x="15" y="15" font-size="9" style="fill:black">Laura Gómez Menéndez</text>
+<text x="15" y="25" font-size="8" style="fill:black">
+ Nacimiento - Tebongo - Longitud: -6.50, latitud: 43.23, altitud: 302 el 2001-01-01</text>
+<text x="15" y="35" font-size="8" style="fill:black">
+ Residencia - Nava - Longitud: -5.50, latitud: 43.35, altitud: 154</text>
+<text x="15" y="45" font-size="8" style="fill:black">
+ Comentario - Comentario sobre Laura - Fotos - [laura.jpg], videos - [lauraV1.mp4]</text>
+<rect x="410" y="53" width="400" height="43" style="fill:yellow;stroke:purple;stroke-width:1"/>
+<text x="420" y="63" font-size="9" style="fill:black">Miguel Gayol Pertierra</text>
+<text x="420" y="73" font-size="8" style="fill:black">
+ Nacimiento - Cadavedo - Longitud: -6.38, latitud: 43.53, altitud: 10 el 2001-05-25</text>
+<text x="420" y="83" font-size="8" style="fill:black">
+ Residencia - Malta - Longitud: 14.37, latitud: 35.93, altitud: 44</text>
+<text x="420" y="93" font-size="8" style="fill:black">
+ Comentario - Comentario sobre Miguel - Fotos - [miguel.jpg], videos - [miguelV1.mp4, miguelV2.mp4, miguelV3.mp4]</text>
+<rect x="815" y="101" width="400" height="43" style="fill:yellow;stroke:purple;stroke-width:1"/>
+<text x="825" y="111" font-size="9" style="fill:black">Luis Sánchez de Posada Orihuela</text>
+<text x="825" y="121" font-size="8" style="fill:black">
+ Nacimiento - Oviedo - Longitud: -5.84, latitud: 43.36, altitud: 238 el 2001-08-26</text>
+<text x="825" y="131" font-size="8" style="fill:black">
+ Residencia - Oviedo - Longitud: -5.82, latitud: 43.36, altitud: 234</text>
+<text x="825" y="141" font-size="8" style="fill:black">
+ Comentario - Comentario sobre Luis - Fotos - [luis.jpg], videos - []</text>
+<rect x="815" y="149" width="400" height="43" style="fill:yellow;stroke:purple;stroke-width:1"/>
+<text x="825" y="159" font-size="9" style="fill:black">Iván Vega García</text>
+<text x="825" y="169" font-size="8" style="fill:black">
+ Nacimiento - Avilés - Longitud: -5.94, latitud: 43.53, altitud: 8 el 2001-03-01</text>
+<text x="825" y="179" font-size="8" style="fill:black">
+ Residencia - Avilés - Longitud: -5.29, latitud: 43.55, altitud: 8</text>
+<text x="825" y="189" font-size="8" style="fill:black">
+ Comentario - Comentario sobre Iván - Fotos - [ivan.jpg], videos - []</text>
+<rect x="815" y="197" width="400" height="43" style="fill:yellow;stroke:purple;stroke-width:1"/>
+<text x="825" y="207" font-size="9" style="fill:black">Jairo García Castro</text>
+<text x="825" y="217" font-size="8" style="fill:black">
+ Nacimiento - Luarca - Longitud: -6.53, latitud: 43.54, altitud: 40 el 2000-12-14</text>
+<text x="825" y="227" font-size="8" style="fill:black">
+ Residencia - Oviedo - Longitud: -5.81, latitud: 43.37, altitud: 238</text>
+<text x="825" y="237" font-size="8" style="fill:black">
+ Comentario - Comentario sobre Jairo - Fotos - [jairo.jpg, jairo2.jpg], videos - []</text>
+<rect x="410" y="245" width="400" height="43" style="fill:yellow;stroke:purple;stroke-width:1"/>
+<text x="420" y="255" font-size="9" style="fill:black">Silvia Suárez Prendes</text>
+<text x="420" y="265" font-size="8" style="fill:black">
+ Nacimiento - San Juan de la Arena - Longitud: -6.06, latitud: 43.55, altitud: 8 el 2001-02-27</text>
+<text x="420" y="275" font-size="8" style="fill:black">
+ Residencia - Oviedo - Longitud: -5.82, latitud: 43.35, altitud: 238</text>
+<text x="420" y="285" font-size="8" style="fill:black">
+ Comentario - Comentario sobre Silvia - Fotos - [sil.jpg], videos - []</text>
+<rect x="815" y="293" width="400" height="43" style="fill:yellow;stroke:purple;stroke-width:1"/>
+<text x="825" y="303" font-size="9" style="fill:black">Sara Ramírez Pérez</text>
+<text x="825" y="313" font-size="8" style="fill:black">
+ Nacimiento - Fonsagrada - Longitud: -7.06, latitud: 43.11, altitud: 8 el 2001-04-17</text>
+<text x="825" y="323" font-size="8" style="fill:black">
+ Residencia - Cudillero - Longitud: -6.16, latitud: 43.55, altitud: 8</text>
+<text x="825" y="333" font-size="8" style="fill:black">
+ Comentario - Comentario sobre Sara - Fotos - [sara.jpg], videos - [saraV1.mp4]</text>
+<rect x="815" y="341" width="400" height="43" style="fill:yellow;stroke:purple;stroke-width:1"/>
+<text x="825" y="351" font-size="9" style="fill:black">Celia Melendi Lavandera</text>
+<text x="825" y="361" font-size="8" style="fill:black">
+ Nacimiento - Pola de Siero - Longitud: -5.66, latitud: 43.39, altitud: 220 el 2001-09-01</text>
+<text x="825" y="371" font-size="8" style="fill:black">
+ Residencia - Tineo - Longitud: -6.41, latitud: 43.32, altitud: 800</text>
+<text x="825" y="381" font-size="8" style="fill:black">
+ Comentario - Comentario sobre Celia - Fotos - [ce.jpg, ce2.jpg], videos - []</text>
+<rect x="815" y="389" width="400" height="43" style="fill:yellow;stroke:purple;stroke-width:1"/>
+<text x="825" y="399" font-size="9" style="fill:black">Elena Selgas Fernández</text>
+<text x="825" y="409" font-size="8" style="fill:black">
+ Nacimiento - Pravia - Longitud: -6.11, latitud: 43.49, altitud: 220 el 2001-03-14</text>
+<text x="825" y="419" font-size="8" style="fill:black">
+ Residencia - Grandas de Salime - Longitud: -6.83, latitud: 43.23, altitud: 240</text>
+<text x="825" y="429" font-size="8" style="fill:black">
+ Comentario - Comentario sobre Elena - Fotos - [elena.jpg], videos - []</text>
+<rect x="410" y="437" width="400" height="43" style="fill:yellow;stroke:purple;stroke-width:1"/>
+<text x="420" y="447" font-size="9" style="fill:black">Lara García Rodríguez</text>
+<text x="420" y="457" font-size="8" style="fill:black">
+ Nacimiento - Cangas del Narcea - Longitud: -6.54, latitud: 43.17, altitud: 396 el 2001-05-11</text>
+<text x="420" y="467" font-size="8" style="fill:black">
+ Residencia - Gijón - Longitud: -5.66, latitud: 43.53, altitud: 7</text>
+<text x="420" y="477" font-size="8" style="fill:black">
+ Comentario - Comentario sobre Lara - Fotos - [lara.jpg], videos - []</text>
+<rect x="815" y="485" width="400" height="43" style="fill:yellow;stroke:purple;stroke-width:1"/>
+<text x="825" y="495" font-size="9" style="fill:black">María Arias Alfonso</text>
+<text x="825" y="505" font-size="8" style="fill:black">
+ Nacimiento - Pola de Allande - Longitud: -6.54, latitud: 43.26, altitud: 200 el 2001-09-19</text>
+<text x="825" y="515" font-size="8" style="fill:black">
+ Residencia - Llanes - Longitud: -4.77, latitud: 43.41, altitud: 7</text>
+<text x="825" y="525" font-size="8" style="fill:black">
+ Comentario - Comentario sobre María - Fotos - [maria.jpg], videos - []</text>
+<rect x="815" y="533" width="400" height="43" style="fill:yellow;stroke:purple;stroke-width:1"/>
+<text x="825" y="543" font-size="9" style="fill:black">Isabel Menéndez Menéndez</text>
+<text x="825" y="553" font-size="8" style="fill:black">
+ Nacimiento - Lastres - Longitud: -5.26, latitud: 43.50, altitud: 7 el 2000-09-18</text>
+<text x="825" y="563" font-size="8" style="fill:black">
+ Residencia - Sevares - Longitud: -5.66, latitud: 43.35, altitud: 7</text>
+<text x="825" y="573" font-size="8" style="fill:black">
+ Comentario - Comentario sobre Isabel - Fotos - [isa.jpg], videos - []</text>
+<rect x="815" y="581" width="400" height="43" style="fill:yellow;stroke:purple;stroke-width:1"/>
+<text x="825" y="591" font-size="9" style="fill:black">Idoia Menéndez García</text>
+<text x="825" y="601" font-size="8" style="fill:black">
+ Nacimiento - Cornellana - Longitud: -6.52, latitud: 43.39, altitud: 396 el 2001-05-31</text>
+<text x="825" y="611" font-size="8" style="fill:black">
+ Residencia - Navelgas - Longitud: -5.84, latitud: 43.36, altitud: 238</text>
+<text x="825" y="621" font-size="8" style="fill:black">
+ Comentario - Comentario sobre Idoia - Fotos - [ido.jpg, ido2.jpg], videos - []</text>
+<path d="M 405 26 L 410 53 m 0 0 z" style="stroke:black"/>
+<path d="M 405 26 L 410 245 m 0 0 z" style="stroke:black"/>
+<path d="M 405 26 L 410 437 m 0 0 z" style="stroke:black"/>
+
+<path d="M 810 74 L 815 101 m 0 0 z" style="stroke:black"/>
+<path d="M 810 74 L 815 149 m 0 0 z" style="stroke:black"/>
+<path d="M 810 74 L 815 197 m 0 0 z" style="stroke:black"/>
+
+<path d="M 810 266 L 815 293 m 0 0 z" style="stroke:black"/>
+<path d="M 810 266 L 815 341 m 0 0 z" style="stroke:black"/>
+<path d="M 810 266 L 815 389 m 0 0 z" style="stroke:black"/>
+
+<path d="M 810 458 L 815 485 m 0 0 z" style="stroke:black"/>
+<path d="M 810 458 L 815 533 m 0 0 z" style=";stroke:black"/>
+<path d="M 810 458 L 815 581 m 0 0 z" style="stroke:black"/>
+
+</svg>

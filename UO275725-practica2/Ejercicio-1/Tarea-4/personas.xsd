@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema xmlns="http://tempuri.org/personas" elementFormDefault="qualified" targetNamespace="http://tempuri.org/personas" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="personas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" ref="persona" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="persona">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" ref="coordenadasNacimiento" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="coordenadasResidencia" />
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="foto" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="video" />
+        <xs:sequence minOccurs="0" maxOccurs="1">
+          <xs:element ref="persona" />
+          <xs:element ref="persona" />
+          <xs:element ref="persona" />
+        </xs:sequence>
+      </xs:sequence>
+      <xs:attribute name="nombre" type="xs:string" use="required" />
+      <xs:attribute name="apellidos" type="xs:string" use="required" />
+      <xs:attribute name="fechaNacimiento" type="xs:NMTOKEN" use="required" />
+      <xs:attribute name="lugarNacimiento" type="xs:string" use="required" />
+      <xs:attribute name="lugarResidencia" type="xs:string" use="required" />
+      <xs:attribute name="comentarios" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="coordenadasNacimiento">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="longitud" type="xs:NMTOKEN" use="required" />
+          <xs:attribute name="latitud" type="xs:NMTOKEN" use="required" />
+          <xs:attribute name="altitud" type="xs:NMTOKEN" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="coordenadasResidencia">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="longitud" type="xs:NMTOKEN" use="required" />
+          <xs:attribute name="latitud" type="xs:NMTOKEN" use="required" />
+          <xs:attribute name="altitud" type="xs:NMTOKEN" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="foto" type="xs:string" />
+  <xs:element name="video" type="xs:string" />
+</xs:schema>

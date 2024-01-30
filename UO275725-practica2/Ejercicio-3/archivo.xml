@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<timeSeriesResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.cuahsi.org/waterML/1.1/">
+  <queryInfo>
+    <creationTime>2009-06-12T10:48:04.609375-07:00</creationTime>
+  </queryInfo>
+  <timeSeries>
+    <sourceInfo>
+      <siteName>Río del Oso al lado de Wellsville, Utah</siteName>
+      <geoLocation>
+        <geogLocation>
+          <latitude>41.643457</latitude>
+          <longitude>-111.917649</longitude>
+        </geogLocation>
+        <localSiteXY>
+          <X>423579.317</X>
+          <Y>4610597.583</Y>
+        </localSiteXY>
+      </geoLocation>
+      <elevation_m>1365</elevation_m>
+      <verticalDatum>NGVD29</verticalDatum>
+    </sourceInfo>
+    <variable>
+      <variableName>Solidos</variableName>
+      <valueType>Muestra</valueType>
+      <dataType>Esporádico</dataType>
+      <generalCategory>Calidad del agua</generalCategory>
+      <sampleMedium>Superficie del agua</sampleMedium>
+      <unit>
+        <unitName>miligramos por litro</unitName>
+        <unitType>Concentración</unitType>
+        <unitAbbreviation>mg/L</unitAbbreviation>
+        <unitCode>199</unitCode>
+      </unit>
+      <noDataValue>-9999</noDataValue>
+      <speciation>No aplica</speciation>
+    </variable>
+    <values>
+      <value> 10.5</value>
+      <value> 2.5</value>
+      <value>7.2</value>
+      <value>2.5</value>
+      <value>2.5</value>
+      <qualityControlLevel>
+        <qualityControlLevelCode>2</qualityControlLevelCode>
+        <definition>Productos derivados</definition>
+        <explanation>Derivados que requieren interpretación científica y técnica y pueden incluir datos de múltiples sensores.
+        Un ejemplo es la precipitación promedio de cuenca derivada de pluviómetros utilizando un procedimiento de interpolación.</explanation>
+      </qualityControlLevel>
+      <method>
+        <methodCode>25</methodCode>
+        <methodDescription>Muestra aleatoria de química del agua recolectada por técnicos en el campo.
+</methodDescription>
+      </method>
+      <source>
+        <sourceCode>3</sourceCode>
+        <organization>Laboratorio de Investigación del Agua de Utah de la Universidad Estatal de Utah</organization>
+        <sourceDescription>Datos de monitoreo de la química del agua recopilados por la Universidad Estatal de Utah como parte de un proyecto de banco de pruebas financiado por la Fundación Nacional de Ciencias.</sourceDescription>
+        <contactInformation>
+          <contactName>Amber Spackman</contactName>
+          <typeOfContactypeOfContact>main</typeOfContactypeOfContact>
+          <email>amber.s@aggiemail.usu.edu</email>
+          <phone> 1-435-797-0045</phone>
+        </contactInformation>
+        <sourceLink>http://water.usu.edu/littlebearriver</sourceLink>
+        <citation>Datos de monitoreo de la química del agua recopilados por Jeff Horsburgh, David Stevens, David Tarboton, Nancy Mesner, Amber Spackman,
+         y Sandra Gurrero en la Universidad Estatal de Utah como parte de un proyecto de banco de pruebas de la red WATERS financiado por la Fundación Nacional de Ciencias.</citation>
+      </source>
+      <sample>
+        <labSampleCode>9188</labSampleCode>
+        <sampleType>Tomada</sampleType>
+        <labMethod>
+          <labCode>9188</labCode>
+          <labName>Laboratorio Analítico USU</labName>
+          <labOrganization>Universidad Estatal de Utah</labOrganization>
+          <LabMethodName>EPA 340.2</LabMethodName>
+        </labMethod>
+      </sample>
+    </values>
+  </timeSeries>
+</timeSeriesResponse>

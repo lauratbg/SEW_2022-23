@@ -1,0 +1,26 @@
+<!ELEMENT personas (persona?)>
+<!ELEMENT persona (coordenadasNacimiento?, coordenadasResidencia?, foto+, video*, (persona, persona, persona)?)>
+<!ELEMENT coordenadasNacimiento (#PCDATA)>
+<!ELEMENT coordenadasResidencia (#PCDATA)>
+<!ELEMENT foto (#PCDATA)>
+<!ELEMENT video (#PCDATA)>
+
+<!ATTLIST persona 
+		  nombre CDATA #REQUIRED
+		  apellidos CDATA #REQUIRED
+		  fechaNacimiento NMTOKEN #REQUIRED
+		  lugarNacimiento CDATA #REQUIRED
+		  lugarResidencia CDATA #REQUIRED
+		  comentarios CDATA #REQUIRED
+>
+<!ATTLIST coordenadasNacimiento
+		  longitud NMTOKEN #REQUIRED
+		  latitud NMTOKEN #REQUIRED
+		  altitud NMTOKEN #REQUIRED
+>
+
+<!ATTLIST coordenadasResidencia
+		  longitud NMTOKEN #REQUIRED
+		  latitud NMTOKEN #REQUIRED
+		  altitud NMTOKEN #REQUIRED
+>
