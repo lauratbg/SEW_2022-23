@@ -1,0 +1,36 @@
+
+/*Especificidad (0,0,1)*/
+body {
+  display: grid;
+  grid-template-areas:
+  "header header"
+  "nav article "
+  "footer footer";
+  gap: 0.8em;
+  grid-template-columns: 1fr 6fr;
+}
+
+/*Especificidad (0,0,1)*/
+header{ 
+  grid-area: header;
+  justify-self: center;
+  align-self: center;
+}
+
+/*Especificidad (0,0,1)*/
+article {
+  grid-area: article;
+}
+
+/*Especificidad (0,0,1)*/
+nav{ 
+  grid-area: nav;
+} 
+
+/*Especificidad (0,0,1)*/
+footer {
+  grid-area: footer;
+}
+
+
+

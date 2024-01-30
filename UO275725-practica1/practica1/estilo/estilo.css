@@ -1,0 +1,102 @@
+/*Especificidad (0,0,1)*/
+body {
+  font-family: "Cambria Math", serif;
+  background-color: #782F7F;
+  color: #FFF700;
+}
+
+/*Especificidad (0,0,1)*/
+p {
+    font-size: 1.25em;
+}
+
+/*Especificidad (0,0,1)*/
+a {
+  color: #FFF700;
+  background-color:  #592259;
+}
+
+/*Especificidad (0,0,1)*/
+h1 {
+  background-color: #592259;
+  font-size: 2.5em;
+}
+
+/*Especificidad (0,0,1)*/
+h2 {
+    background-color: #592259;
+}
+
+/*Especificidad (0,0,1)*/
+nav {
+    background-color: #DB9FDB;
+    font-size: 0.8em;
+}
+
+/*Especificidad (0,0,2)*/
+nav ul {
+  font-size: 1.7em;
+  list-style-type: none;
+  padding: 0.9em;
+}
+
+/*Especificidad (0,0,3)*/
+nav ul li{
+  padding: 0.3em;
+}
+
+/*Especificidad (0,0,4)*/
+nav ul li a {
+  background-color: #DB9FDB;
+  color: #000000;
+}
+
+/*Especificidad (0,1,4)*/
+nav ul li a:hover{
+  background-color: #CB80C5;
+}
+
+/*Especificidad (0,0,1)*/
+footer {
+    background-color: #782F7F;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+
+/*Especificidad (0,0,2)*/
+footer p{
+  background-color: #DB9FDB;
+}
+
+/*Especificidad (0,0,1)*/
+ul {
+  font-size: 1.25em;
+}
+
+/*Especificidad (0,0,1)*/
+dl{
+  background-color: #782F7F;
+  font-size: 1.25em;
+}
+
+/*Especificidad (0,0,1)*/
+table, th, td, tr{
+  border: 0.0625em solid;
+  border-color: rgb(0, 0, 0);
+}
+
+/*Especificidad (0,0,1)*/
+caption{
+  font-size: 1.4em;
+}
+
+/*Especificidad (0,0,1)*/
+video{
+  width: 100%;
+  max-width: 37.5em;
+}
+
+/*Especificidad (0,0,1)*/
+input{
+  font-size: 0.7em;
+}
