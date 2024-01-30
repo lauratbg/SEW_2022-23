@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Calculadora científica</title>
+
+    <!-- Autor -->
+    <meta name ="author" content ="Laura Gómez" />
+
+    <!-- Descripción -->
+    <meta name ="description" content ="Calculadora científica" />
+
+    <!-- Definir la ventana gráfica -->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css" />
+    <script src="CalculadoraCientifica.js"></script>
+</head>
+
+<body onload="c.inicializar()">
+    <form>
+        <label for="pantalla">Calculadora científica</label>
+        <input type="text" name="pantalla" id="pantalla" value="" lang="es" disabled>
+
+        <!--Primera fila-->
+        <input type="button" value="DEG"   onclick="c.deg()" />
+        <input type="button" value="HYP"   onclick="c.hyper()" />
+        <input type="button" value="F-E"   onclick="c.fe()" />
+        <label for="memoria">Memoria</label>
+        <input type="text"   name="memoria" id="memoria"     disabled>
+        
+        <!--Segunda fila-->
+        <input type="button" value="Mc"    onclick="c.mc()" />
+        <input type="button" value="Mr"    onclick="c.mr()" />
+        <input type="button" value="M-"    onclick="c.mMenos()" />
+        <input type="button" value="M+"    onclick="c.mMas()" />
+        <input type="button" value="MS"    onclick="c.ms()" />
+
+        <!--Tercera fila-->
+        <input type="button" value="x^2"    onclick="c.potenciaDeDos();" />
+        <input type="button" value="x^y"    onclick="c.potenciaDeY();" />
+        <input type="button" value="sin"    onclick="c.sin();" />
+        <input type="button" value="cos"    onclick="c.cos();" />
+        <input type="button" value="tan"    onclick="c.tan();"/>
+
+        <!--Cuarta fila-->
+        <input type="button" value="√"       onclick="c.raiz();" />
+        <input type="button" value="10^x"    onclick="c.elevar10();" />
+        <input type="button" value="log"     onclick="c.logaritmoBase10();" />
+        <input type="button" value="exp"     onclick="c.exponente();" />
+        <input type="button" value="mod"     onclick="c.modulo();" />
+       
+        <!--Quinta fila-->
+         <input type="button" value="↑"     onclick="c.flecha();" />
+         <input type="button" value="C"     onclick="c.borrar()" />
+         <input type="button" value="CE"    onclick="c.ce();" />
+         <input type="button" value="DEL"   onclick="c.delete();" />
+         <input type="button" value="/"     onclick="c.division();" />
+
+         <!--Sexta fila--> 
+         <input type="button" value="π"    onclick="c.pi();" />
+         <input type="button" value="7"    onclick="c.digitos('7');" />
+         <input type="button" value="8"    onclick="c.digitos('8');" />
+         <input type="button" value="9"    onclick="c.digitos('9');" />
+         <input type="button" value="x"    onclick="c.multiplicacion();" />
+
+        <!--Séptima fila-->
+         <input type="button" value="n!"   onclick="c.factorial();" />
+         <input type="button" value="4"    onclick="c.digitos('4');" />
+         <input type="button" value="5"    onclick="c.digitos('5');" />
+         <input type="button" value="6"    onclick="c.digitos('6');" />
+         <input type="button" value="-"    onclick="c.resta();" />
+
+        <!--Octava fila-->
+         <input type="button" value="+/-"  onclick="c.cambioDeSigno();" />
+         <input type="button" value="1"    onclick="c.digitos('1');" />
+         <input type="button" value="2"    onclick="c.digitos('2');" />
+         <input type="button" value="3"    onclick="c.digitos('3');" />
+         <input type="button" value="+"    onclick="c.suma();" />
+
+         <!--Novena fila-->
+         <input type="button" value="("    onclick="c.abrirParentesis();" />
+         <input type="button" value=")"    onclick="c.cerrarParentesis();" />
+         <input type="button" value="0"    onclick="c.digitos('0');" />
+         <input type="button" value="."    onclick="c.decimal();" />
+         <input type="button" value="="    onclick="c.igual();" />
+       
+
+    </form>
+</body>
+</html>

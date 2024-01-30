@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Calculadora RPN</title>
+
+    <!-- Autor -->
+    <meta name ="author" content ="Laura Gómez" />
+
+    <!-- Descripción -->
+    <meta name ="description" content ="Calculadora RPN" />
+
+    <!-- Definir la ventana gráfica -->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css" />
+    <script src="CalculadoraRPN.js"></script>
+</head>
+
+<body onload="c.inicializar()">
+    <form>
+        <label for="pantalla">Calculadora RPN</label>
+        <textarea name="pantalla" id="pantalla" lang="es" disabled> </textarea>
+
+        <label for="numero">Número introducido</label>
+        <input type="text" name="numero" id="numero" value="" disabled>
+
+        <!--Primera fila-->
+        <input type="button" value="C"      onclick="c.borrar()" />
+        <input type="button" value="sin"    onclick="c.sin();" />
+        <input type="button" value="cos"    onclick="c.cos();" />
+        <input type="button" value="tan"    onclick="c.tan();"/>
+
+        <!--Segunda fila-->
+        <input type="button" value="CE"      onclick="c.ce()" />
+        <input type="button" value="asin"    onclick="c.asin();" />
+        <input type="button" value="acos"    onclick="c.acos();" />
+        <input type="button" value="atan"    onclick="c.atan();"/>
+
+        <!--Tercera fila-->
+        <input type="button" value="7"    onclick="c.digitos('7');" />
+         <input type="button" value="8"    onclick="c.digitos('8');" />
+         <input type="button" value="9"    onclick="c.digitos('9');" />
+         <input type="button" value="-"    onclick="c.resta();" />
+
+         <!--Cuarta fila-->
+         <input type="button" value="4"    onclick="c.digitos('4');" />
+         <input type="button" value="5"    onclick="c.digitos('5');" />
+         <input type="button" value="6"    onclick="c.digitos('6');" />
+         <input type="button" value="x"    onclick="c.multiplicacion();" /> 
+
+         <!--Quinta fila--> 
+         <input type="button" value="1"    onclick="c.digitos('1');" />
+          <input type="button" value="2"    onclick="c.digitos('2');" />
+          <input type="button" value="3"    onclick="c.digitos('3');" />
+          <input type="button" value="+"    onclick="c.suma();" />
+
+          <!--Sexta fila-->
+          <input type="button" value="ENTER"    onclick="c.enter();" />        
+          <input type="button" value="0"        onclick="c.digitos('0');" />
+          <input type="button" value="."        onclick="c.decimal();" />
+          <input type="button" value="/"        onclick="c.division();" />
+
+
+    </form>
+</body>
+</html>

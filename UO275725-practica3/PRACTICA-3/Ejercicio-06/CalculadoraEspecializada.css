@@ -1,0 +1,89 @@
+/*Especificidad: (0,0,1)*/
+body {
+    font-family: "Cambria Math", sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+/*Especificidad: (0,0,1)*/
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.2em;
+    background-color:  #d8d6d6;
+    width: 27em;
+    border-radius: 5%;
+    padding: 2em;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+/*Especificidad: (0,0,1)*/
+label{
+    font-size: 1.2em;
+}
+
+/*Especificidad: (0,1,1)*/
+input[type=button]  {
+    background-color: #c4c2c2;
+    font-size: 1em;
+}
+
+/*Especificidad: (0,1,1)*/
+input[type=text]  {
+    grid-column: span 4;
+}
+
+/*Especificidad: (0,2,1)*/
+input[type=button][ value = "0"],
+input[type=button][ value = "1"],
+input[type=button][ value = "2"],
+input[type=button][ value = "3"],
+input[type=button][ value = "4"],
+input[type=button][ value = "5"],
+input[type=button][ value = "6"],
+input[type=button][ value = "7"],
+input[type=button][ value = "8"],
+input[type=button][ value = "9"],
+input[type=button][ value = "."]
+{
+    background-color: #ffffff;
+}
+
+/*Especificidad: (0,2,1)*/
+input[type=button][ value = "Gimnasio"],
+input[type=button][ value = "Correr"],
+input[type=button][ value = "Andar"]
+{
+    background-color: #eeb7aa;
+}
+
+/*Especificidad: (0,2,1)*/
+input[type=button][ value = "Pollo"],
+input[type=button][ value = "Arroz"],
+input[type=button][ value = "Tortilla"],
+input[type=button][ value = "Lentejas"],
+input[type=button][ value = "Pan"]
+{
+    background-color: #c0eec6;
+}
+
+/*Especificidad: (0,2,1)*/
+input[type=button][ value = "ENTER"],
+input[type=button][ value = "IMC"]
+{
+    background-color: #b8dfeb;
+    grid-column: span 2;
+}
+
+/*Especificidad: (0,0,1)*/
+textarea {
+    grid-column: span 4;
+    text-align: right;
+    border: none;
+    resize: none;
+
+}
+
+

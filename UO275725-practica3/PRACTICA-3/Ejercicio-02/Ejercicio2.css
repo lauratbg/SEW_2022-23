@@ -1,0 +1,17 @@
+/*Laura Gómez Menéndez, UO275725*/
+/*Especificidad: (0,0,1)*/
+body {
+    color: yellow;
+    background-color: purple;
+}
+
+/*Especificidad: (0,0,1)*/
+h1, h2{
+    font-family: "Cambria Math", sans-serif;
+    text-align: center;
+}
+
+/*Especificidad: (0,0,1)*/
+p{
+	font-size: 1.1em;
+}
